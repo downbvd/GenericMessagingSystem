@@ -1,0 +1,36 @@
+{
+  "name": "generic-messaging-system",
+  "version": "1.0.0",
+  "description": "An anonymous real-time messaging app. Join chat rooms using just a username and room code — no authentication required!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "messaging",
+    "chat",
+    "real-time",
+    "anonymous",
+    "open-source"
+  ],
+  "author": "downbvd",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/downbvd/GenericMessagingSystem"
+  },
+  "bugs": {
+    "url": "https://github.com/downbvd/GenericMessagingSystem/issues"
+  },
+  "homepage": "https://github.com/downbvd/GenericMessagingSystem#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {}
+}

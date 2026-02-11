@@ -1,0 +1,8 @@
+run = "npm start"
+modules = ["nodejs-18"]
+
+[env]
+PORT = "3000"
+
+[nix]
+channel = "stable-23_11"
